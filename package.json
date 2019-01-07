@@ -1,0 +1,17 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"build": "webpack src/main.js -o dist/bundle.js",
+	"watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "~4.28.3",
+    "webpack-cli": "~3.2.1"
+  }
+}
